@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Matriz {
+public class Array {
     public static void main(String[] args) {
         // Declaração e criação da matriz (array) 3x2 (3 linhas e 2 colunas)
         int[][] matriz = new int[3][2];
