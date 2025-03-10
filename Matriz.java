@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Matriz {
+    public static void main(String[] args) {
+        // Declaração e criação da matriz (array) 3x2 (3 linhas e 2 colunas)
+        int[][] matriz = new int[3][2];
+        
+        // Scanner para leitura dos valores
+        Scanner scanner = new Scanner(System.in);
+        
+        // Inclusão de valores na matriz
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {  // Corrigido aqui
+                System.out.print("Digite o valor para o elemento [" + i + "][" + j + "]: ");
+                matriz[i][j] = scanner.nextInt();
+            }
+        }
+        
+        // Listagem dos valores da matriz
+        System.out.println("\nValores da matriz 3x2:");
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {  // Corrigido aqui também
+                System.out.println("Elemento [" + i + "][" + j + "]: " + matriz[i][j]);
+            }
+        }
+        
+        // Fechar o Scanner
+        scanner.close();
+    }
+}
