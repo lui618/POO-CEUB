@@ -1,7 +1,5 @@
 package AVA2_PESSOAS;
 
-package AVA2_PESSOAS;
-
 public class Fornecedor extends Usuario {
     private String cnpj;
     private String razaoSocial;

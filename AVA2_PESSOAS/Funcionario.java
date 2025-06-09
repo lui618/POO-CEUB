@@ -2,10 +2,6 @@ package AVA2_PESSOAS;
 
 import java.time.LocalDate; 
 
-package AVA2_PESSOAS;
-
-import java.time.LocalDate;
-
 public class Funcionario extends Usuario {
     private int matriculaFuncionario;
     private LocalDate dataDeNascimento;
